@@ -1,4 +1,4 @@
-import app_ui as st
+import streamlit as st
 from query_rag import get_context, generate_prompt, query_rag
 
 
