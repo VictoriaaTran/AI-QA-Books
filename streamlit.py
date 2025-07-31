@@ -1,7 +1,6 @@
 import streamlit as st
-# from langchain_chroma import Chroma
 from query_rag import get_context, generate_prompt, query_rag
-from pathlib import Path
+
 
 st.title("Lords of the rings QA 📚")
 st.write("This is a simple question answering app based on the Lord of the Rings (4) books including\n The Hobbit |\nThe Fellowship of the Ring |\nThe Return of the King |\n and The Two Towers..")
