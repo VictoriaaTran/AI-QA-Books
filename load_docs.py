@@ -2,8 +2,7 @@ from langchain_community.document_loaders import PyPDFDirectoryLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema.document import Document
 from langchain_ollama import OllamaEmbeddings
-# from langchain_chroma import Chroma
-from langchain.vectorstores import Chroma
+from langchain_chroma import Chroma
 
 DATAPATH = "Data"
 CHROMAPATH = "Chroma"
