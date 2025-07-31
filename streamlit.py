@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain_chroma import Chroma
+# from langchain_chroma import Chroma
 from query_rag import get_context, generate_prompt, query_rag
 from pathlib import Path
 
