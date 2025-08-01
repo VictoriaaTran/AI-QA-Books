@@ -1,7 +1,7 @@
 import streamlit as st
-# from query_rag import get_context, generate_prompt, query_rag
+from query_rag import get_context, generate_prompt, query_rag
 
-
+# st.title("Lords of the Rings QA 📚")
 # st.title("Lords of the rings QA 📚")
 # st.write("This is a simple question answering app based on the Lord of the Rings (4) books including\n The Hobbit |\nThe Fellowship of the Ring |\nThe Return of the King |\n and The Two Towers..")
 # question = st.chat_input("Ask a question", key="question")
